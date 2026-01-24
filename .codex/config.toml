@@ -1,0 +1,12 @@
+[features]
+web_search_request = true 
+
+# for Web Development
+[mcp_servers.playwright]
+command = "npx"
+args = ["@playwright/mcp@latest"]
+
+# for Next.js Project
+[mcp_servers.next-devtools]
+command = "npx"
+args = ["-y", "next-devtools-mcp@latest"]
