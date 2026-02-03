@@ -1,5 +1,4 @@
-[features]
-web_search = true
+web_search = "live"
 
 # for Web Development
 [mcp_servers.playwright]
