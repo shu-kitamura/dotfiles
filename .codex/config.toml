@@ -1,5 +1,5 @@
 [features]
-web_search_request = true 
+web_search = true
 
 # for Web Development
 [mcp_servers.playwright]
