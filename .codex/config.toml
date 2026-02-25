@@ -1,11 +1,17 @@
+# Codex config (2026)
+# NOTE: old [features] / web_search_request settings are deprecated.
+# Use top-level web_search instead.
 web_search = "live"
+
 
 # for Web Development
 [mcp_servers.playwright]
 command = "npx"
-args = ["@playwright/mcp@latest"]
+args = ["-y", "@playwright/mcp@latest"]
+startup_timeout_sec = 60
 
 # for Next.js Project
 [mcp_servers.next-devtools]
 command = "npx"
 args = ["-y", "next-devtools-mcp@latest"]
+startup_timeout_sec = 60
