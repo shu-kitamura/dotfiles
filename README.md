@@ -19,3 +19,7 @@ ln -s "$(pwd)/bash/.bashrc" ~/.bashrc
 - 既存の設定ファイルを上書きする前にバックアップを取ってください。
 - 環境によって必要な設定が異なる場合は、ローカルで適宜調整してください。
 
+
+## Codex 設定メモ
+- `.codex/config.toml` は `web_search = "live"` を使う形式に更新しています（旧 `features.web_search*` は非推奨）。
+- `playwright` / `next-devtools` MCP は `npx -y ...@latest` と `startup_timeout_sec` を設定し、初回起動時の失敗を減らしています。
